@@ -3,10 +3,7 @@
 A one-stop virtual assistant that offers wide array of financial information relating to stock analysis for Singapore Exchange.
 
 
-
-convert this to readme.md format. 
-
-
+![SGStocksBot](https://github.com/user-attachments/assets/baac9cf1-f8bc-4702-9c92-8f435806f02a)
 
 In order to keep myself updated on the financial information of SGX listed companies, I used to install a plethora of investment applications on my mobile device, such as Bloomberg and Yahoo Finance to name a few. 
 
@@ -18,48 +15,34 @@ With Telegram gaining popularity and prominence as a messaging service applicati
 
 And with that comes the birth of SGStocksBot. 
 
-
-
 # Getting access to SGStocksBot
 To get started, you would need to have Telegram installed on your mobile device. Upon setting up a Telegram account, you can access to SGStocksBot via the search function,
 
-
+![Search for SGStocksBot](https://github.com/user-attachments/assets/cd13df6c-2166-49e5-8969-1056fcbb7913)
 
 or the following Telegram invite link: https://t.me/SGStocksBot
+
 You will be directed to the following page in which you may click on "Start" to initiate the bot. 
 
-
-
-
+<img width="296" height="640" alt="Start" src="https://github.com/user-attachments/assets/9e9771d0-a9cb-4139-8c84-3796db5fea57" />
 
 # /start Command
 For those who are unfamiliar with the use of Telegram bots, a bot command begins with a slash "/" followed by the supported commands. 
 
 One of the universal commands is "/start" which initiates the conversation with the bot. At the same time, it brings up the menu of the commands available to the user. Let's go through these commands together. 
 
-
-
+<img width="418" height="640" alt="menu" src="https://github.com/user-attachments/assets/94909b20-d8af-47ea-a664-4ea1608aab9e" />
 
 # /info Command
 The info command gives the basic information of the stock / bond. To use this command, you can key in "/info" along with the name or stock code of the stock / bond that you wish to look up. 
 
 To demonstrate using DBS stock, you can key in either "/info DBS" or "/info D05" if you have knowledge of the ticker symbol that you are searching for. 
 
-
-
-
-
-
-
-
-
+![info2](https://github.com/user-attachments/assets/098fabcd-17b6-4fef-8ab8-87bf2c16edd5)
 
 Other than stocks, you may also search the database for other security types such as ETFs and bonds. 
 
-
-
-
-
+![info3](https://github.com/user-attachments/assets/8956e375-10a8-4224-89f1-e2e2b2947e72)
 
 # /div Command
 The div command provides information regarding the current dividend yield as well as the dividend history of a particular security for the past 5 years. 
@@ -72,8 +55,7 @@ Do note that only the info command allows name searching of securities. So you m
 
 To demonstrate using DBS stock, you can key in "/div D05" to obtain the dividend information of DBS. 
 
-
-
+![div](https://github.com/user-attachments/assets/e338670c-91b0-4a1d-9efe-0e4227d54bc8)
 
 # /divsum Command
 The divsum command calculates the amount of dividend that a shareholder would have collected in a defined time period based on the number of shares that he/she has owned in that particular security.
@@ -84,18 +66,16 @@ To demonstrate using DBS stock, you can key in "/divsum D05, 2011, 2016, 1000" t
 
 From the example below, the user is able to tell that he has collected a total of $3,460 dividend based on his 1000 shares of DBS from 2011 to 2016. Additionally, he is able to view the dividend breakdown over the years.
 
-
+![divsum](https://github.com/user-attachments/assets/a115f03e-5868-4c93-83d0-9cdbeea083d9)
 
 Using this command, the user is able to observe the track record of dividend payments for a particular security over the years. 
-
 
 # /updiv Command
 The updiv command allows the user to view the upcoming dividend / corporate actions for SGX listed companies.
 
 To use this command, you can simply key in "/updiv". The bot will respond with 5 upcoming dividend payouts, ordered by recent corporate actions. 
 
-
-
+![updiv](https://github.com/user-attachments/assets/370e24cb-595b-4952-bdf5-522049f13133)
 
 # /divrank Command
 The divrank command calculates the dividend yields for each security in specific categories and rank them accordingly.
@@ -104,11 +84,12 @@ The dividend yield is calculated based on the previous day's closing price of th
 
 To use this command, you can simply key in "/divrank". The bot will respond and ask for your input of choice for the category.
 
-
+![divrank1](https://github.com/user-attachments/assets/30729a09-5765-4b01-8aac-80abc3b7703e)
 
 Upon receiving the user's input of choice, the bot will calculate the dividend yields and rank them accordingly. Here are some examples for blue chip stocks and REITs.
 
-
+![divrank2](https://github.com/user-attachments/assets/98221f57-ec2b-4c9b-957d-f6bba87c30c3)
+![divrank3](https://github.com/user-attachments/assets/ea4dca56-5140-4aee-a14d-a7f823064cc9)
 
 I had initially intended to generate the ranking using the price at time of query as input variables but this has hampered the execution of the command considerably. Therefore, I have switched to the use of previous day's closing price of the security in order to optimize the bot's performance.
 
@@ -120,32 +101,27 @@ Hence, investors should not be lured by the attractiveness of high dividend yiel
 
 That is not to say that all high-yield securities signify beleaguered companies in financial duress. The necessary due diligence should be carried out before committing to an investment. 
 
-
-
 # /news Command
 The news command allows the user to view the recent Singapore financial news and industry trends. 
 
 To use this command, you can simply key in "/news". The bot will respond with the 5 pieces of financial articles, ordered by the publication date. 
 
-
-
+![news](https://github.com/user-attachments/assets/7438a684-8850-412c-8976-5e06c1bd0182)
 
 # /trend Command
 The trend command computes the relevant metrics for trend analysis of a security in the given lookback period. This aspect caters to the technical minds who are keen in studying the trendlines and price movement of stocks.
 
 To use this command, you can key in "/trend" along with the stock code of the security and the number of years as lookback period.
 
-
 To demonstrate using DBS stock, you can key in "/trend D05, 10" to analyze the trend data for DBS over the past 10 years.
 
-
-
+![trend1](https://github.com/user-attachments/assets/f0fcaeea-c928-4353-a952-ec11ce2137f3)
 
 The mean refers to the average daily stock price for the defined period (i.e. 10 years in this case). Visually, you can imagine a horizontal line cutting across the chart at 16.06. 
 
 On top of that, users are able to create their own linear regression charts for trend analysis. 
 
-
+![trend2](https://github.com/user-attachments/assets/30ea02a1-03b0-46e5-89bf-1b1b342af217)
 
 The stock trend line refers to a linear regression line (or line of best fit) drawn through the daily stock price data. Users are able to use the long-term trend line as a gauge to determine the valuation of the security at the current price (ie. if a stock is trading above or below the regression trendline).
 
@@ -155,11 +131,10 @@ The price data for these 5 metrics represent the latest price points at the end 
 
 Naturally, this command offers an over-simplistic approach in determining the valuation of a particular security. Exercising the appropriate due diligence is definitely recommended. 
 
-
-
 # /support Command
 Last but not least, if you have found SGStocksBot to be useful and would like to show your appreciation, the support command allows the user to contribute and help support the running of the bot via PayLah payment link.
 
+![support](https://github.com/user-attachments/assets/200befc2-f25b-43c4-ae9a-dd5e79d3324c)
 
 One last thing to note is that the bot will idle and go to sleep after 30 minutes of inactivity. So do expect the bot to take a few seconds to respond to your command if it has been more than 30 minutes since your last interaction with it. Other than that, the bot should respond almost instantaneously.
 
